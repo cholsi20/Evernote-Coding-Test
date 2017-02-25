@@ -1,0 +1,21 @@
+Colors
+
+ headline = #267340
+ text = #79787d
+button background = #4dbf33
+button text: #ffffff
+
+Font Sizes
+
+ desktop:
+    headline = 
+31px
+    button text = 13px
+    text = 18px
+    smaller text = 11px
+
+  Mobile:
+    headline = 16px
+    text = 16px
+    button text = 13px
+    smaller text = 11px

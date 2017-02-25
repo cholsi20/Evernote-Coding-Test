@@ -1,0 +1,309 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<style>
+  .appleLinks {
+    color:#000000 !important; 
+  }
+  .appleLinks a {
+    color: #d0947b;
+    text-decoration: none;
+  }
+  .generalLinks {
+    color: #d0947b;
+    text-decoration: none;
+  }
+  .generalLinks a {
+    color: #d0947b;
+    text-decoration: none;
+  }
+  .convertLinkToNormalText_BODY {
+    color: #000000;
+    text-decoration: none;
+  }
+  .convertLinkToNormalText_BODY a {
+    color: #000;
+    text-decoration: none;
+  }
+  .convertLinkToNormalText_FOOTER {
+    color: #999;
+    text-decoration: none;
+  }
+  .convertLinkToNormalText_FOOTER a {
+    color: #999;
+    text-decoration: none;
+  }
+  @media only screen and (max-width: 640px)  {
+    .appleLinks {
+      color: #d0947b;
+      text-decoration: none;
+    }
+    .appleLinks a {
+      color: #d0947b;
+      text-decoration: none;
+    }
+    #mobile_header {
+    	max-width: 50%;
+    	height: auto;
+    	text-align: center;
+    	margin: 0 auto;
+    }
+    .mobile_content {
+      width: 98% !important;
+      max-height: none !important;
+      margin-left: 5px !important;
+      margin-right: 5px !important;
+    }
+    .image_resize img{
+      max-width: 98% !important;
+      max-height: none !important;
+      max-height: none !important;
+      text-align: center !important;
+    }
+    .spacer_height{
+    	height: 15px;
+    }
+
+  	.mobile_social {
+  	  width: 120px !important;
+  	  margin: 0 auto !important;
+  	  height: auto !important;
+  	  max-height: none !important;
+  	  text-align: center !important;
+  	}
+  	.mobile_social td {
+  	  padding: 0 !important;
+  	  margin: 0 !important;
+  	  max-width: 30px !important;
+  	  text-align: center !important;
+  	}    
+      .mobile_social img {
+  	  max-width: 30px !important;
+  	  height: auto !important;
+  	  max-height: none !important;
+  	}
+  }
+</style>
+</head>
+
+<script type="text/javascript">
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ BEGIN GREETING DETERMINATION LOGIC ~~~~~~ */
+/* By way of explaination, most companies these days either use a service or Javascript itself in order to do certain personalization specific tasks.  In this case, it's clear there's an opportunity for personalization, so I went ahead and used Javascript, as I am not sure what service you might be using.  My thinking here is that this would ultimately map, in some way, to a column in a .csv or .tsv file which would determine whether or not we have a first name on file for the customer (as is the indicated intention with the function/ variable "lead" in the example file. 
+
+While I decided not to do this for this specific test, there are two possible ways to ensure you don't end up with "garbage", so to speak, for the first name.  I.e. if we were extracting names from email addresses, for instance, to ensure we didn't end up with @ symbols, or .com in the name.  One would be to have Analytics run checks on their end, and to look for those kind of issues before passing off to the email team.  The other option is for Email team to build in fail-safes within their logic, however, depending on what service is being used, the latter option may or may not be available (such as with, ExactTarget, AMPscript does not have error handling, and is more tricky to navigate when looking for issues of this nature)*/
+
+/* BEGIN CUSTOMER GREETING FUCTION*/
+function customerGreeting( name ) {
+  /* If the length of the "name" string array is not equal to 0 */
+  if (name.length !== 0) {
+    document.write( name ); /*write the name*/
+  } /*end if*/
+
+  /* else, use default greeting "Homeowner"*/
+  else {
+     document.write("Homeowner"); /*write Homeowner */
+  } /*end else*/
+}
+/* END CUSTOMER GREETING FUNCTION */
+</script>
+<!-- END GREETING DETERMINATION LOGIC -->
+
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ BEGIN EMAIL BODY CONTENT -->
+
+<!-- BEGIN BODY -->
+<body style="margin: 0; padding: 0;">
+ 	<!-- BEGIN OUTER SHELL TABLE -->
+	<table align="center" border="0" cellpadding="0" cellspacing="0" width="650" style="margin: 0 auto; padding-top: 1%;" class="mobile_content">
+    <tr>
+      <td align="center" style="margin: 0; padding: 0; font-family: 'Helvetica', sans-serif; font-size: 10px; text-align: center;"> 
+        <a href="" target="_blank" style="text-decoration: none;  color: #888;">
+          <span style="">
+            View as Webpage 
+          </span>
+        </a>
+      </td>
+    </tr>
+
+  		<!-- BEGIN LOGO AND BANNER TABLE -->
+	  	<table align="center" border="0" cellpadding="0" cellspacing="0" width="650" style="margin: 0 auto; background-color: #16004C;" class="mobile_content">
+    		<!-- BEGIN LOGO --> 
+      	<tr> 
+        	<td width="50%" align="left" style="text-align:left;" class="logo">
+        		<a href="">
+        			<img src="http://cdn.mlhdocs.com/adc_cms/images/TEN-X_LOGO_f-white.png" border="0"  width="50%" align="left" id="mobile_header" style="padding: 0; padding-left: 50px; padding-top: 10px; padding-bottom: 10px;">
+        		</a>
+          </td>
+
+          <td width="50%" align="right" style="text-align:right;">
+            <a href="" style="text-decoration:none;">
+              <div width="100%">
+                <span align="right" style="padding: 0; padding-right: 50px; padding-top: 10px; padding-bottom: 10px; font-family:Helvetica,sans-serif; font-size: 15px; color: #FFF;">
+                  Visit Ten-X Homes
+                </span>
+                <div>
+            </a>
+        	</td> 
+      	</tr> 
+      	<!-- END LOGO -->
+	  	</table>
+	  	<!-- END LOGO AND BANNER TABLE -->
+
+	  	<!-- BEGIN EMAIL BODY -->
+	  	<table align="center" border="0" cellpadding="0" cellspacing="0" width="650" style="margin: 0 auto; margin-top: 10px; padding: 0; padding-left: 50px; padding-right: 50px; font-family: 'Helvetica', sans-serif; color: #888;" class="mobile_content">	
+	  		<tr>
+          <td width="100%" style="padding: 0; padding-top: 10px;">
+            <span style="margin-bottom: 35px;">
+              Hello <script type="text/javascript">
+
+              /* DECLARE VARIABLE TO BE TESTED */
+              /* This would, in theory, be the variable that maps to the audience file */
+              var firstName = "";
+
+              customerGreeting(firstName);</script>, 
+            </span>
+              
+            	<br>
+            	<br>
+
+            <span style="">
+              Thank you for taking the time to speak with me today. I have attached the information you requested.
+            </span>
+
+              <br>
+              <br>
+
+            <span style="">
+              <b>Don't forget that the free listing offer expires January 31, 2017*</b>. If you are interested in selling, let me know so we can get you listed before the offer expires.
+            </span>
+
+              <br>
+              <br>              
+
+            <span style="">
+              When you are ready to sell your home and have any questions, please give me a call at 000-000-0000 or email me at <a href="mailto:name@ten-x.com" style="text-decoration:none; color: #0098ee;" class="generalLinks">name@ten-x.com</a></span>. 
+            </span>
+
+              	<br>
+              	<br>
+
+            <span style="">
+              	Best Regards,
+              		<br>
+              	[Sales Person's Name Here]
+            </span>
+
+              	<br>
+                <br>
+
+            <span style="color: #0098ee; margin-bottom: 35px; font-size: 12px;">
+              *Terms and conditions apply
+            </span>
+          </td>
+        </tr>
+	  	</table>
+	  	<!-- END EMAIL BODY -->
+
+	  	<!-- BEGIN EMAIL FOOTER -->
+	  	<table align="center" border="0" cellpadding="0" cellspacing="0" width="650" style="margin: 0 auto; padding: 0; padding-left: 50px; padding-right: 50px;" class="mobile_content">
+    		<tr> 
+    			<td align="center"> 
+      			<table cellpadding="0" cellspacing="0" border="0" align="center">
+              <!-- BEGIN DISCLAIMER --> 
+        			<tr> 
+          			<td style="color: #888; font-family:Helvetica,sans-serif;; font-size: 9px; padding-top: 20px; padding-bottom:1%; text-align: center">
+            			<span style="font-family:Helvetica,sans-serif; font-size: 9px; color: #888;" class="convertLinkToNormalText_FOOTER">Disclaimer: It is not our intention to solicit the offerings of other real estate brokers. If your home is already listed with one, we are happy to work with them and cooperate fully.  
+                  </span> 
+                </td>
+              </tr>
+              <!-- END DISCLAIMER -->
+
+              <!-- BEGIN SOCIAL ICONS -->
+              <tr> 
+                <td align="center"> 
+                  <table cellpadding="0" cellspacing="0" border="0" align="center" style="width: 110px; margin: 0 auto;" class="mobile_social"> 
+                    <tr> 
+                      <td style="padding-right:3px; padding-top:10px;">
+                        <a href="http://www.facebook.com/OneKingsLane" border="0">
+                          <img src="http://cdn.mlhdocs.com/adc_cms/images/tenx-fbook.png" alt="Ten-X Facebook" border="0" width="40">
+                        </a> 
+                      </td> 
+
+                      <td style="padding-right:5px;padding-top:10px;">
+                        <a href="http://instagram.com/onekingslane" border="0">
+                          <img src="http://cdn.mlhdocs.com/adc_cms/images/tenx-gplus.png" alt="Ten-X Google Plus" border="0" width="40">
+                        </a> 
+                      </td> 
+        
+                      <td style="padding-right:3px; padding-top:10px;">
+                        <a href="http://pinterest.com/onekingslane/" border="0">
+                          <img src="http://cdn.mlhdocs.com/adc_cms/images/tenx-in.png" alt="Ten-X LinkedIn" border="0" width="40">
+                        </a> 
+                      </td> 
+
+                      <td style="padding-right:3px; padding-top:10px;">
+                        <a href="http://twitter.com/onekingslane" border="0">
+                          <img src="http://cdn.mlhdocs.com/adc_cms/images/tenx-tweet.png" alt="Ten-X Twitter" border="0" width="40">
+                        </a> 
+                      </td>
+
+                      <td style="padding-right:3px; padding-top:10px;">
+                        <a href="http://twitter.com/onekingslane" border="0">
+                          <img src="http://cdn.mlhdocs.com/adc_cms/images/tenx-yt.png" alt="Ten-X YouTube" border="0" width="40">
+                        </a> 
+                      </td>                        
+                    </tr> 
+                  </table> 
+                </td> 
+              </tr> 
+              <!-- END SOCIAL ICONS -->
+
+              <!-- BEGIN CAN-SPAM COMPLIANCE & LEGAL NOTICE -->
+              <tr>
+                <td align="center" style="color: #999; font-family:Helvetica,sans-serif; font-size: 9px; color: #888; padding-top: 1%;">
+        					<table cellpadding="0" cellspacing="0" border="0" align="center" syle="margin: 0 auto;">
+          					<a href="https://www.onekingslane.com/privacy?UTM_source=Corporate&utm_medium=Launch&utm_campaign=%%=v(jobid)=%%&utm_content=%%xtshortdate%%.%%_subscriberkey%%.%%=v(@Email_Type)=%%&utm_term=Footer.PrivacyPolicy" style="text-decoration:none; font-family:Helvetica,sans-serif; font-size: 9px; color: #888">
+              					Licensing &#38; Disclosures
+          					</a>
+
+                    &nbsp;&nbsp;|&nbsp;&nbsp;
+
+           					<a href="https://www.onekingslane.com/contact-us?UTM_source=Corporate&utm_medium=Launch&utm_campaign=%%=v(jobid)=%%&utm_content=%%xtshortdate%%.%%_subscriberkey%%.%%=v(@Email_Type)=%%&utm_term=Footer.ContactUs"  style="text-decoration:none; font-family:Helvetica,sans-serif; font-size: 9px; color: #888">
+              					Privacy Statement
+            				</a>
+
+                    &nbsp;&nbsp;|&nbsp;&nbsp;
+            					
+                    <a href="https://www.onekingslane.com/corporate/careers/?UTM_source=Corporate&utm_medium=Launch&utm_campaign=%%=v(jobid)=%%&utm_content=%%xtshortdate%%.%%_subscriberkey%%.%%=v(@Email_Type)=%%&utm_term=Footer.Hiring"  style="text-decoration:none; font-family:Helvetica,sans-serif; font-size: 9px; color: #888">
+              					Website Terms of Use
+            				</a>
+
+                    &nbsp;&nbsp;|&nbsp;&nbsp;
+
+                    <a href="" style="text-decoration:none; font-family:Helvetica,sans-serif; font-size: 9px; color: #888">
+                      Unsubscribe
+                    </a>
+                  </table> 
+      				  </td> 
+    				  </tr> 
+              <!-- END CAN-SPAM COMPLIANCE & LEGAL NOTICE -->
+
+              <!-- BEGIN DISCLAIMER --> 
+              <tr> 
+                <td style="color: #888; font-family:Helvetica,sans-serif;; font-size: 9px; padding-top: 1%; padding-bottom:15px; text-align: center">
+                  <span style="font-family:Helvetica,sans-serif; font-size: 9px; color: #888;" class="convertLinkToNormalText_FOOTER">1 Mauchly, Irvine, CA 92618 &#169; <script>document.write(new Date().getFullYear())</script> Ten-X, LLC.
+                  </span> 
+                </td>
+              </tr>
+              <!-- END DISCLAIMER -->
+      		  </table> 
+		      </td> 
+	      </tr> 
+      </table>
+    </table>
+ 	<custom name="opencounter" type="tracking">
+</body>
+</html>
