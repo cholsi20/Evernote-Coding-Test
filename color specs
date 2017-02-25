@@ -8,8 +8,7 @@ button text: #ffffff
 Font Sizes
 
  desktop:
-    headline = 
-31px
+    headline = 31px
     button text = 13px
     text = 18px
     smaller text = 11px
